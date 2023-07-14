@@ -59,7 +59,7 @@ nav {
 }
 
 .main__caption {
-    font-size: 0.8rem;
+    font-size: .6rem;
 }
 
 /* Banner Image */
@@ -98,7 +98,11 @@ a:hover {
 
 
 .article__h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.article__p {
+    margin-bottom: 50px;
 }
 
 .footer {
