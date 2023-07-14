@@ -18,6 +18,13 @@
     font-size: 1.2rem;
 }
 
+header a {
+    transition: 1000ms;
+  }
+  header a:hover {
+    color: yellow;
+  }
+
 .header__nav {
     display: flex;
     justify-content: flex-end; /* Updated: align links to the right */
@@ -74,14 +81,14 @@ img {
     font-size: 0.9rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     img {
-        max-width: 700px;
+        max-width: 800px;
         width: auto;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
 .header__link {
     padding: 10px ;
