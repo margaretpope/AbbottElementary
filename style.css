@@ -68,10 +68,6 @@ nav {
     width: 100%;
     height: auto;
 }
-
-p {
-    line-height: 1.75;
-}
   
 a:hover {
     text-decoration: underline;
@@ -103,6 +99,7 @@ a:hover {
 
 .article__p {
     margin-bottom: 50px;
+    line-height: 1.75;
 }
 
 .footer {
