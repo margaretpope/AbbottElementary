@@ -20,10 +20,11 @@
 
 header a {
     transition: 1000ms;
-  }
-  header a:hover {
+}
+
+header a:hover {
     color: yellow;
-  }
+}
 
 .header__nav {
     display: flex;
@@ -61,11 +62,39 @@ nav {
     font-size: 0.8rem;
 }
 
-img {
+/* Banner Image */
+.img__primary {
     max-width: 100%;
     width: 100%;
     height: auto;
 }
+
+p {
+    line-height: 1.75;
+}
+  
+a:hover {
+    text-decoration: underline;
+    background-color: var(--background-color);
+    color: white;
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+/* Images within body floating left to the text */
+.img__secondary {
+    float: left;
+    max-width: 200px;
+    margin: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
 
 
 .article__h1 {
@@ -82,7 +111,7 @@ img {
 }
 
 @media (min-width: 800px) {
-    img {
+    .img__primary {
         max-width: 800px;
         width: auto;
     }
@@ -112,4 +141,18 @@ p {
     font-size: .8rem;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.img__secondary {
+    width: 35%;
+    float: none;
+    display: block;
+    
+
+}
 }
