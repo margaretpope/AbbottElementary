@@ -146,14 +146,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 35px;
 }
 
 .img__secondary {
-    width: 35%;
     float: none;
     display: block;
-    
-
+    margin: none;
 }
 }
