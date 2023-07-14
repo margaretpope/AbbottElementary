@@ -43,7 +43,7 @@
 }
 
 .main__caption {
-    font-size: .8rem;
+    font-size: .6rem;
 }
 
 .article {
@@ -51,7 +51,11 @@
 }
 
 .article__h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.article__p {
+    margin-bottom: 50px;
 }
 
 .footer {
