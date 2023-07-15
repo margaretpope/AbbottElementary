@@ -2,6 +2,7 @@
     --background-color: #5F9A80;
     --background-color-light: white;
     --text-light: white;
+    --link-hover: #FFFFA7;
 }
 
 .body {
@@ -18,14 +19,6 @@
     font-size: 1.2rem;
 }
 
-header a {
-    transition: 1000ms;
-}
-
-header a:hover {
-    color: yellow;
-}
-
 .header__nav {
     display: flex;
     justify-content: flex-end; /* Updated: align links to the right */
@@ -37,14 +30,15 @@ header a:hover {
     text-decoration: none;
     color: var(--text-light);
     padding: 15px;
+    transition: 1000ms;
 }
 
 .header__link:hover {
     text-decoration: underline;
+    color: var(--link-hover);
 }
 
-main > article,
-nav {
+.layout {
     max-width: 800px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -90,8 +84,6 @@ a:hover {
     align-items: center;
     justify-content: center 
 }
-
-
 
 .article__h1 {
     font-size: 1.3rem;
