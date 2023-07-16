@@ -13,10 +13,17 @@
     margin: 0;
 }
 
+@keyframes background {
+    from {background-color: var(--background-color-light);}
+    to {background-color: var(--background-color;)}
+}
+
 .header {
     background-color: var(--background-color);
     padding: 20px;
     font-size: 1.2rem;
+    animation-name: background;
+    animation-duration: 3s;
 }
 
 .header__nav {
@@ -30,7 +37,6 @@
     text-decoration: none;
     color: var(--text-light);
     padding: 15px;
-    transition: 1000ms
 }
 
 .header__link:hover {
